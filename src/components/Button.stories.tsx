@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable storybook/story-exports */
 import { Button, ButtonProps } from "./Button";
 import { Meta, StoryObj } from "@storybook/react";
 

@@ -1,6 +1,4 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable storybook/story-exports */
-import { Checkbox, CheckboxProps } from "./Checkbox";
+import { Checkbox } from "./Checkbox";
 import { Meta, StoryObj } from "@storybook/react";
 
 export default {
@@ -8,6 +6,6 @@ export default {
 	component: Checkbox,
 	args: {},
 	argTypes: {},
-} as Meta<CheckboxProps>;
+} as Meta;
 
-export const CustomComponent: StoryObj<CheckboxProps> = {};
+export const CustomComponent: StoryObj = {};

@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable storybook/story-exports */
 import { Text, TextProps } from "./Text";
 import { Meta, StoryObj } from "@storybook/react";
 

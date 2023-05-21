@@ -1,7 +1,8 @@
-/* eslint-disable @typescript-eslint/no-empty-interface */
 import { InputHTMLAttributes } from 'react';
 
-export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}
+export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+	readonly?: boolean;
+}
 export interface InputRootProps { children: React.ReactNode }
 export interface InputIconProps { children: React.ReactNode }
 

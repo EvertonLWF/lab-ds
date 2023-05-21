@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable storybook/story-exports */
 import { TextInput, InputRootProps } from "./TextInput";
 import { Meta, StoryObj } from "@storybook/react";
 import { Envelope } from "phosphor-react";
